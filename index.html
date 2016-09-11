@@ -14,8 +14,15 @@
 <body>
 	<div>
 		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<button class="btn btn-normal form-control" id="export">Export</button>	
+			<div class="container col-xs-12">
+			<div class="form-inline">			    
+				<button class="btn btn-normal pull-left" id="export">Export</button>
+				<div class="form-group pull-right">
+				    <label for="draw_from">Go</label>
+			    	<input type="text" class="form-control numbers-only" id="draw_from" placeholder="1">
+			    	<button class="btn btn-success" id="go">번부터</button>	
+			  	</div>				
+
 			</div>
 		</nav>
 	</div>
