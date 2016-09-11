@@ -45,7 +45,7 @@ $(document).ready(function(){
 		contents = contents.add( ph );
 		contents = contents.add( $("<div>").addClass("panel-body row h3").text(words[i]));
 
-		panel = $("<div>").addClass("panel panel-default col-md-3 col-sm-3 col-xs-6").append(contents).animateCss("fadeIn").attr('item', i);		
+		panel = $("<div>").addClass("panel panel-default col-md-3 col-sm-6 col-xs-12").append(contents).animateCss("fadeIn").attr('item', i);		
 		$("#wordlist").append(panel);		
 	}		
 	for(before=0;before<50;before++){
